@@ -1,5 +1,6 @@
 package io.westcraft.trade;
 
+import io.westcraft.trade.commands.ForceTradeCommand;
 import io.westcraft.trade.commands.TradeCommand;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -13,6 +14,7 @@ public final class WestTrade extends JavaPlugin {
     @Override
     public void onEnable() {
         WestCraft.registerCommand(new TradeCommand(this));
+        WestCraft.registerCommand(new ForceTradeCommand(this));
     }
 
     @Override
