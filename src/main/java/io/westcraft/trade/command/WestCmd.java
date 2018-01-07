@@ -76,6 +76,8 @@ public class WestCmd {
     }
 
     public String[] getArgs() {
+        if (args == null)
+            return new String[0];
         return args;
     }
 
