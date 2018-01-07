@@ -93,6 +93,8 @@ public class TradeInventory {
         inventory.setItem(51, acceptButton);
         inventory.setItem(52, declineButton);
         inventory.setItem(53, declineButton);
+
+        player.openInventory(inventory);
     }
 
     private ItemStack setItemName(ItemStack is, String name) {
