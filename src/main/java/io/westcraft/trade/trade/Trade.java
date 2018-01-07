@@ -14,6 +14,7 @@ public class Trade {
         this.party2 = party2;
         this.inventory1 = new TradeInventory(this, 1);
         this.inventory2 = new TradeInventory(this, 2);
+        update();
     }
 
     public Player getParty1() {
