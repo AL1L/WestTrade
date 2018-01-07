@@ -4,3 +4,4 @@ main: io.westcraft.trade.WestTrade
 authors: [AL_1, Allow]
 description: Trade with players
 website: http://westcraft.io
+depend: [Vault]
